@@ -2,9 +2,9 @@
 
 namespace Foxen\ActivityLog;
 
+use Foxen\ActivityLog\Commands\ActivityLogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Foxen\ActivityLog\Commands\ActivityLogCommand;
 
 class ActivityLogServiceProvider extends PackageServiceProvider
 {

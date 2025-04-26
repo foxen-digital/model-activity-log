@@ -2,9 +2,9 @@
 
 namespace Foxen\ActivityLog\Tests;
 
+use Foxen\ActivityLog\ActivityLogServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Foxen\ActivityLog\ActivityLogServiceProvider;
 
 class TestCase extends Orchestra
 {
