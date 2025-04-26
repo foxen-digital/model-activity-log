@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Foxen\ActivityLog\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ActivityLogCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'model-activity-log';
 
     public $description = 'My command';
 
